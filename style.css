@@ -1,0 +1,10 @@
+div, img, input, button {
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+[src$=".svg"] {
+    height: 20px;
+    width: 20px;
+}
