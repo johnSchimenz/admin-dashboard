@@ -38,7 +38,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 20fr 1fr 1fr 5fr;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -47,7 +47,7 @@ header {
 
 #top-body {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 10fr 2fr 2fr 2fr;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -74,5 +74,5 @@ header {
 }
 
 .project {
-    width: 200px;
+
 }
