@@ -14,6 +14,11 @@ div, img, input, button, header, h1, h2, h3, h4, h5, h6, p {
     border-style: solid;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     border-color: red;
     border-width: 1px;
