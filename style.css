@@ -38,7 +38,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 4;
 
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 
 header {
