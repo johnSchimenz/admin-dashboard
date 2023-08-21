@@ -1,5 +1,21 @@
-div, img, input, button {
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+div, img, input, button, header {
     border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+body {
+    border-color: red;
     border-width: 1px;
     border-style: solid;
 }
@@ -8,3 +24,63 @@ div, img, input, button {
     height: 20px;
     width: 20px;
 }
+
+#sidebar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 40px);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+header {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#top-body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+#left-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#right-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 40px 1fr;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+/*
+.project {
+    width: 200px;
+}
+
+
+
+
+
+
+
+*/
