@@ -27,13 +27,13 @@ body {
 
 #sidebar {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 5fr;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
 
-    grid-template-rows: repeat(10, 40px);
+    grid-template-rows: repeat(10, 1fr);
 }
 
 header {
@@ -43,8 +43,6 @@ header {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-
-    height: 40px;
 }
 
 #top-body {
@@ -54,8 +52,6 @@ header {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3; 
-    
-    height: 40px;
 }
 
 #left-body {
@@ -71,8 +67,6 @@ header {
 
 #right-body {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
