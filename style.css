@@ -37,6 +37,8 @@ body {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
+    background-color: blue;
+    color: white;
 
     grid-template-rows: repeat(12, 1fr);
 }
@@ -48,6 +50,7 @@ header {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-color: white;
 }
 
 #top-body {
@@ -56,7 +59,8 @@ header {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 3; 
+    grid-row-end: 3;
+    background-color: white;
 }
 
 #left-body {
@@ -68,6 +72,7 @@ header {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+    background-color: lightgray;
 }
 
 #right-body {
@@ -76,8 +81,9 @@ header {
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    background-color: lightgray;
 }
 
 .projects {
-
+    background-color: white;
 }
