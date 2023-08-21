@@ -8,7 +8,7 @@ body {
     grid-template-rows: 1fr 2fr 8fr;
 }
 
-div, img, input, button, header {
+div, img, input, button, header, h1, h2, h3, h4, h5, h6, p {
     border-color: blue;
     border-width: 1px;
     border-style: solid;
