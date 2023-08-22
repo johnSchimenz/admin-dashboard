@@ -3,13 +3,6 @@
     --secondary-color: lightgray;
     --tertiary-color: white;
     box-sizing: border-box;
-    font-size: calc(15px + 0.390625vw); /* Might need to adjust this if font sizes too large */
-}
-
-body {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 2fr 8fr;
 }
 
 div, img, input, button, header, h1, h2, h3, h4, h5, h6, p {
@@ -21,6 +14,12 @@ div, img, input, button, header, h1, h2, h3, h4, h5, h6, p {
 h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 8fr;
 }
 
 body {
@@ -88,6 +87,9 @@ header {
     background-color: var(--secondary-color);
 }
 
-.projects {
+.projects, #announcements, #trending {
     background-color: var(--tertiary-color);
+    margin: 16px;
+    padding: 8px;
+    border-radius: 10px;
 }
