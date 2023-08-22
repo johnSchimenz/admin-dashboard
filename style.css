@@ -3,6 +3,7 @@
     --secondary-color: lightgray;
     --tertiary-color: white;
     box-sizing: border-box;
+    font-size: calc(15px + 0.390625vw); /* Might need to adjust this if font sizes too large */
 }
 
 body {
